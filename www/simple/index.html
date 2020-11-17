@@ -8,6 +8,7 @@
         .getSensorsData({
           device_id: "nicolasdupont",
           sensor_id: "windspeed",
+        limit:  1000
         })
         .then(sens => {
           document.getElementById("device_value").innerHTML =
